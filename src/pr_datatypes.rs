@@ -18,4 +18,8 @@ fn main(){
 //Boolean values: true ,false
     let not_snowing : bool =true;
     println!("is today snowing ?{}",not_snowing);
+//===============================================
+//charachter type = char
+    let letter : char ='a';
+    println!("Frist letter is: {}"letter);
 }
