@@ -12,7 +12,10 @@ fn main(){
 //==============================================
 //floats [floating point types]
 //f32,f64
-
     let pi : f64 = 3.14285;
     println!("value of pie: {}",pi);
+//===============================================
+//Boolean values: true ,false
+    let not_snowing : bool =true;
+    println!("is today snowing ?{}",not_snowing);
 }
