@@ -9,4 +9,10 @@ fn main(){
     let i : i64 = 9223372036854775807;
     println!("Maximum value of i32: {}",e);
     println!("Maximum value of i64: {}",i);
+//==============================================
+//floats [floating point types]
+//f32,f64
+
+    let pi : f64 = 3.14285;
+    println!("value of pie: {}",pi);
 }
