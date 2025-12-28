@@ -15,4 +15,6 @@ fn main() {
     println!("My info {:?}", human);
     let mix_tuple = ("Bats",5,false,[1,2,4,5,8]);
     println!("Mix tuple is {:?}",mix_tuple);                //prints all datatype including array  
+//=================================================================
+//Slices
 }
