@@ -17,4 +17,22 @@ fn main() {
     println!("Mix tuple is {:?}",mix_tuple);                //prints all datatype including array  
 //=================================================================
 //Slices
+    let number_string:&[i32] = &[1,2,3,4,5];
+    println!("Number Slices : {:?}",number_string);
+    
+    let animal_slices:&[&str] = &["Lion","Tiger","Leopard","Cheeta"];
+    println!("Animal Slices: {:?}",animal_slices);
+    
+    let book_slices:&[&String] = &[&"It".to_string(),&"Harry Potter".to_string(),&"ZEN".to_string()];
+    println!("Book Slices: {:?}",book_slices);
+    
+    //Strings
+    let mut stone_cold : String = String::from("hell,");
+    stone_cold.push_str("yeah");
+    println!("Stone cold says {}",stone_cold);
+    
+    //&str
+    let string : String = String::from("hello ,world!");
+    let slice : &str = &string[0..8];
+    println!("Slice value: {}",slice);
 }
